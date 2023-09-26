@@ -1,4 +1,4 @@
-@Library('lib-o')
+@Library('lib-0')
 
 pipeline {
     agent any

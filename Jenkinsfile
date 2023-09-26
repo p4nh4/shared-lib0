@@ -1,3 +1,5 @@
+@Library('lib-o')
+
 pipeline {
     agent any
     stages {

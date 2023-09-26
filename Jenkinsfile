@@ -1,4 +1,4 @@
-@Library('lib-0')_
+
 
 pipeline {
     agent any
@@ -22,4 +22,4 @@ pipeline {
             }
         }
     }
-}
+

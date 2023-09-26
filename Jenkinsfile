@@ -1,15 +1,23 @@
-@Library('lib-0') // Replace with the name of your global shared library
+
 
 pipeline {
-  agent any
-  
-  stages {
-    stage('Build') {
-      steps {
-        // Build steps go here
-      }
+    agent any
+    stages {
+        stage('Build') {
+            steps {
+                // Add build steps here
+            }
+        }
+        stage('Test') {
+            steps {
+                // Add test steps here
+            }
+        }
+        // Add more stages as needed
     }
-    
-    // Additional stages go here
-  }
+    post {
+        always {
+            // Add post-build actions here
+        }
+    }
 }
